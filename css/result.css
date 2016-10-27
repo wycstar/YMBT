@@ -1,0 +1,25 @@
+#result-nav-wrapper{
+    position: absolute;
+    height: 64px;
+    width: 100%;
+    min-width:900px;
+    background-color: #fd6853;
+}
+#result-nav-wrapper span{
+    display: inline-block;
+}
+#result-form-wrapper{
+    position: absolute;
+}
+#result-input-wrapper{
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    height: 40px;
+    border: 1px solid white;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: white;
+    transition: .5s;
+}

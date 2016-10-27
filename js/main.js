@@ -2,12 +2,20 @@ $(document).ready(function()
 {
     $("#keyword-input-wrapper").mouseover(function()
     {
-        $(this).css("border-color", "red");
-        //$(this).css("box-shadow", "3px 3px 5px #333");
+        $(this).css("border-color", "#fd6853");
     })
     $("#keyword-input-wrapper").mouseleave(function()
     {
         $(this).css("border-color", "white");
-        $(this).css("box-shadow", "none");
+    })
+    $("#keyword-submit").mouseover(function()
+    {
+        $(this).css("background-color", "#ff5943");
+        $(this).css("border-color", "#ff5943");
+    })
+    $("#keyword-submit").mouseleave(function()
+    {
+        $(this).css("background-color", "#fd6853");
+        $(this).css("border-color", "#fd6853");
     })
 })
